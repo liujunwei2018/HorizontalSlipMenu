@@ -34,6 +34,7 @@ static NSString *const kHorizontalSlipMenuViewCellID = @"kHorizontalSlipMenuView
 #pragma mark - setup
 
 - (void)setupUI {
+    self.backgroundColor = [UIColor whiteColor];
     [self addSubview:self.collectionView];
 }
 
